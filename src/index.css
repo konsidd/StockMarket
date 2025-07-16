@@ -1,0 +1,28 @@
+/* Global styles for the entire application */
+body {
+  font-family: 'Roboto', sans-serif; /* Ensure Roboto is used globally */
+  margin: 0;
+  padding: 20px;
+  background-color: var(--background-light); /* From App.css variables */
+  color: var(--text-color-dark); /* From App.css variables */
+  line-height: 1.6;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* A basic reset or normalize can be added here if desired */
+* {
+box-sizing: inherit;
+}
+
+html, body {
+height: 100%;
+}
+
+#root {
+width: 100%;
+display: flex;
+justify-content: center;
+}
