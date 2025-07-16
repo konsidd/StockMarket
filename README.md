@@ -184,7 +184,7 @@ If deploying, update it to your backend host, e.g. `https://api.yourdomain.com`.
 | Frontend   | React.js, JavaScript            |
 | Backend    | FastAPI, Python                 |
 | Data       | yfinance, requests, bs4         |
-| LLM        | OpenAI / Local model (optional) |
+| LLM        | Gemini                          |
 | Deployment | (Optional: Vercel + Railway)    |
 
 ---
